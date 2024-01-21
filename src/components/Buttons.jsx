@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { useDispatch } from "react-redux";
-import { counterActions } from "../../../52 Redux/3-Counter-React-Redux-toolkit/src/store/counter";
+import { counterActions } from "../store/counterSlice";
 
 function Buttons() {
   const dispatch = useDispatch();
